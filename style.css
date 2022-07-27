@@ -147,7 +147,11 @@ a:hover {
 }
 
 @media (max-width: 500px){
-  main{
+  .nav-menu {
+      width:100%;
+    }
+  
+    main{
       margin:20px 0px;
       padding:5px;
     }
@@ -182,13 +186,17 @@ a:hover {
     display:block;
   }
   
-  .c-site-footer{
+  .footer{
     padding:10px;
   }
 }
 
 @media (min-width: 500px) and (max-width: 800px){
-  main{
+  .nav-menu {
+      width:100%;
+    }
+    
+    main{
     margin:60px 40px;
     padding:10px;
   }
@@ -214,7 +222,11 @@ a:hover {
 }
 
 @media (min-width: 800px) and (max-width: 1300px){
-  main{
+  .nav-menu {
+      width:100%;
+    }
+  
+    main{
     margin:100px 80px;
     padding:10px;
   }
@@ -240,4 +252,7 @@ a:hover {
   font-weight:bold;
   font-size:30px;
   background-color:#ffb3b3;
+}
+.previous, .next {
+  cursor: pointer;
 }
