@@ -226,8 +226,9 @@ a:hover {
 }
 
 #survey-form{
-  padding:20px 50px;
-  box-shadow: inset 0 0 150px 80px #ccc;
+   padding:20px 50px;
+  background-color:#ccc;
+  margin:20px 100px;
   line-height:300%;
 } 
 
