@@ -219,3 +219,21 @@ a:hover {
     height:250px;
   }
 }
+
+
+.product{
+  width:200px;
+}
+
+.add{
+  padding:10px 20px;
+  background-color: #ffb3b3;
+  font-size:20px;
+  font-weight:bold;
+}
+
+#new_list{
+  font-weight:bold;
+  font-size:30px;
+  background-color:#ffb3b3;
+}
