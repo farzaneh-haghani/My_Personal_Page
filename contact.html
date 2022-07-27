@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <title>Farzaneh Haghani</title>
+</head>
+  
+<body>
+    <header class="header">
+        <nav class="navbar" aria-label="Main Site Links.">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">My Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="shopping.html" class="nav-link">Shopping Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact Me</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+      <main>
+    <h1 id="title">Contact Me</h1>
+    <hr>
+    <p id="description"><b>Please complete the form and submit it. I will be in touch with you within 24 hours.</b></p>
+    <form id="survey-form">
+      <div class="grid-container">
+        <div>
+          <label for="name" id="name-label" class="label">Full Name</label>
+        </div>
+        <div class="name">
+          <input type="text" id="name" placeholder="Farzaneh Haghani" required>
+        </div>
+        <div>
+          <label for="email" id="email-label" class="label">Email</label>
+        </div>
+        <div class="email">
+          <input type="email" id="email" placeholder="farfar0304@gmail.com" required>
+        </div>
+        <div>
+          <label for="phonenumber" class="label">Phone Number</label>
+        </div>
+        <div class="phonenumber">
+          <input type="text" id="phonenumber" required>
+        </div>
+        <div>
+          <label for="number" id="number-label" class="label">Age</label>
+        </div>
+        <div class="number">
+          <input type="number" id="number" min="18" max="70" placeholder="18">
+        </div>
+        <div>
+          <label class="label">Gender</label>
+        </div>
+        <div class="subject">
+          <input type="radio" id="english" value="english" name="subject">
+          <label for="english">Male</label>
+          <input type="radio" id="maths" name="subject" value="maths">
+          <label for="maths">Female</label>
+        </div>
+        <div>
+          <label for="area" class="label">Area</label>
+        </div>
+        <div class="area">
+          <select id="dropdown" name="area">
+            <option>Select your area</option>
+            <option>Edmonton</option>
+            <option>Tottenham</option>
+            <option>Arnos Grove</option>
+            <option>Enfield Town</option>
+            <option>Southgate</option>
+          </select>
+        </div>
+        <div>
+          <label class="label" >Contact</label>
+        </div>
+        <div>
+          <div>
+            <input type="checkbox" id="by_sms" value="by_sms">
+            <label for="by_sms">SMS</label>
+          </div>
+          <div>
+            <input type="checkbox" id="by_call" value="by_call">
+            <label for="by_call">Call</label>
+          </div>
+          <div>
+            <input type="checkbox" id="by_email" value="by_email">
+            <label for="by_email">Email</label>
+          </div>
+        </div>
+        <div></div>
+        <div>
+          <label for="comment" class="label">Additional Comments</label>
+        </div>
+        <div class="comment">
+          <textarea id="comment" name="comment"></textarea>
+        </div>
+      </div>
+      <div class="submit">
+        <input type="submit" id="submit" value="Submit">
+      </div>
+    </form>
+    </main>
+    <section id="contact">    
+      <footer class="footer">
+        <nav>
+          <a href="https://www.youtube.com/channel/UCj57acium3iRhkdj4e0keQg" target="_blank">YouTube</a>
+          <a href="https://uk.linkedin.com/in/farzaneh-haghani-b3793893" target="_blank">LinkedIn</a></li>
+          <a href="https://www.facebook.com/farzaneh.haghani" target="_blank">Facebook</a>
+        </nav>
+      </footer>
+    </section>
+</body>
+<script src="/script.js"></script>
+</html>
