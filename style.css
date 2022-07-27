@@ -241,3 +241,10 @@ a:hover {
   font-size:30px;
   background-color:#ffb3b3;
 }
+
+#video{
+  margin:20px;
+}
+#image{
+  width:50%;
+}
