@@ -8,10 +8,6 @@ li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
-
 .header{
     border-bottom: 1px solid #E2E8F0;
 }
@@ -139,15 +135,26 @@ p{
   background:#e6fff2;
   margin:50px 0px;
 }
+
+.navfooter {
+  display: flex;
+  justify-content: center;
+}
+
+.red-color{
+  color:red;
+}
+
 a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   display: inline-block;
   padding: 20px;
   transition: .3s background;
-  color:black;
-  font-weight: bold;
+  border-radius: 50%;
+  margin: 0px 20px;
 }
+
 a:hover {
   background: #333;
   color: #fff;
